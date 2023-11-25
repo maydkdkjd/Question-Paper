@@ -7,7 +7,7 @@ const solve = async () => {
     var hard = document.getElementById("hard").value;
 
     // Calling the API
-    var url = "http://localhost:5500/questions";
+    var url = "https://que-gx19.onrender.com/questions";
 
     try {
         var response = await fetch(url, {
